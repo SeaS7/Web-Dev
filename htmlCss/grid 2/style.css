@@ -1,0 +1,22 @@
+body{
+    display: grid;
+    grid-template-rows: 300px 1fr 300px;
+    grid-gap: 10px;
+    color: white;
+    font-size: 2em;
+}
+header{
+    background: green;
+    text-align: center;
+    padding: 2em;
+}
+main{
+    background: rgb(15, 0, 128);
+    text-align: center;
+    padding: 2em;
+}
+footer{
+    background: rgb(185, 47, 47);
+    text-align: center;
+    padding: 2em;
+}

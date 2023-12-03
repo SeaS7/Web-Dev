@@ -1,0 +1,64 @@
+.parent{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.segment{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    grid-template-rows: 100px;
+}
+
+.twelve{
+    background-color: lightblue;
+    grid-column: 1/ span 12;
+}
+
+.eight{
+    background-color: aliceblue;
+    grid-column: 5/ span 8;
+}
+
+.four{
+    grid-column: 1/ span 4;
+    background-color: antiquewhite;
+}
+
+.six{
+    grid-column: 5/ span 6;
+    background-color: aqua;
+}
+
+.seven{
+    grid-column: 3/ span 7;
+    background-color: bisque;
+}
+
+li:nth-of-type(2){
+    color: red;
+}
+
+li:nth-child(3){
+    color: blueviolet;
+}
+
+.count :nth-child(2){
+color: red;
+}
+
+.count p:nth-last-child(2){
+    color: aqua;
+}
+
+h1 + p {
+    /* it will change the property of only one next p */
+    color: gold;
+}
+/* h1 ~ p {
+     it will change the property of all p neer h1
+    color: gold;
+} */
+.count :hover{
+    background: yellow;
+}

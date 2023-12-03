@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 22px;
+            font-family: Arial;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        button{
+            width: 180px;
+            height: 60px;
+            color: white;
+            background-color: rgb(41, 118, 211);
+            border: none;
+            border-radius: 5px;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        .card{
+            width: 300px;
+            margin: 20px 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            display: inline-block;
+        }
+        .main-img{
+            width: 300px;
+            height: 350px;
+            object-fit: cover;
+        }
+        .text{
+            display: inline-block;
+            color: gray;
+        }
+        .display-img{
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 50px;
+            vertical-align: middle;
+        }
+        .data-div{
+            margin: 15px 10px 10px 10px;
+        }
+        .img-text{
+            margin: 10px 0px;
+        }
+        .name-text{
+            font-weight: 900;
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+     <div class="card">
+        <div class="main-img-div"><img class="main-img" src="cat.jpg" alt=""></div>
+        <div class="data-div">
+            <div class="name-text">Oliver</div>
+            <div class="img-text">
+                <img class="display-img" src="dog2.jpg" alt="">
+                <div class="text">2 mutual friends</div>
+            </div>
+            <div>
+                <button >Add Friend</button>
+            </div>
+        </div>
+     </div>
+
+     <div class="card">
+        <div class="main-img-div"><img class="main-img" src="dog.jpg" alt=""></div>
+        <div class="data-div">
+            <div class="name-text">Rex</div>
+            <div class="img-text">
+                <img class="display-img" src="dog2.jpg" alt="">
+                <div class="text">4 mutual friends</div>
+            </div>
+            <div>
+                <button >Add Friend</button>
+            </div>
+        </div>
+     </div>
+
+     <div class="card">
+        <div class="main-img-div"><img class="main-img" src="cat2.jpg" alt=""></div>
+        <div class="data-div">
+            <div class="name-text">Mimi</div>
+            <div class="img-text">
+                <img class="display-img" src="dog2.jpg" alt="">
+                <div class="text">3 mutual friends</div>
+            </div>
+            <div>
+                <button >Add Friend</button>
+            </div>
+        </div>
+     </div>
+</body>
+</html>
