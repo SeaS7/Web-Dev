@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>User Card</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            font-family: Arial;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .mainDiv{
+            width: 400px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.192);
+            border-radius: 15px;
+            display: flex;
+            padding: 24px;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+        }
+        .mainDiv::before{
+            content: "";
+            background-color: rgb(62, 62, 115);
+            width: 100%;
+            top: 0;
+            height: 30%;
+            position: absolute;
+            border-radius: 15px 15px 0 0;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            object-fit: cover;
+        }
+        .imgDiv {
+            position: relative;
+            height: 150px;
+            width: 150px;
+            background-color: rgb(62, 62, 115);
+            border-radius: 50%;
+            padding: 3px;
+            }
+            .name{
+                margin-top: 5px;
+                font-size: 22px;
+                font-weight: 500;
+            }
+            .profession{
+                font-size: 15px;
+                font-weight: 500;
+            }
+            .socialMedia{
+                margin-top: 10px;
+                display: flex;
+                align-items: center;
+            }
+            .link{
+                width: 35px;
+                height: 35px;
+                margin: 0 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                border-radius: 50%;
+                color: white;
+
+            }
+            .buttons{
+                background-color: #4070f4;
+                border: none;
+                color: white;
+                width: 100px;
+                height: 35px;
+                font-size: 12px;
+                border-radius: 20px;
+                margin: 30px 10px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+            }
+            .buttons:hover{
+                background-color: #0e4bf1;
+            }
+    </style>
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="dpBackground">
+            <div class="imgDiv">
+                <img src="profilePic.jpg" alt="">
+            </div>
+        </div>
+            <p class="name">Muhammad Huzaifa</p>
+            <p class="profession">Web Devolper</p>
+        <div class="socialMedia">
+            <a href="" class="link" style="background: #4267b2;"><i class='bx bxl-facebook'></i></a>
+            <a href="" class="link" style="background: #1da1f2;"><i class='bx bxl-twitter'></i></a>
+            <a href="" class="link" style="background: #e1306c;"><i class='bx bxl-instagram' ></i></a>
+            <a href="" class="link" style="background: #ff0000;"><i class='bx bxl-youtube' ></i></a>
+        </div>
+        <div class="buttonsDiv">
+            <button class="buttons">SUBSCRIBE</button>
+            <button class="buttons">Massage</button>
+        </div>
+        <div class="icons"></div>
+    </div>
+</body>
+</html>
