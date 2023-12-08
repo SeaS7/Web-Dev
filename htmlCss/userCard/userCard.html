@@ -93,6 +93,20 @@
             .buttons:hover{
                 background-color: #0e4bf1;
             }
+            .icons{
+                display: flex;
+                align-items: center;
+            }
+            .data{
+                display: flex;
+                align-items: center;
+                color: #333;
+                padding: 0 20px;
+                border-right:2px solid #e7e7e7;
+            }
+            .data:last-child{
+                border-right: none;
+            }
     </style>
 </head>
 <body>
@@ -111,10 +125,23 @@
             <a href="" class="link" style="background: #ff0000;"><i class='bx bxl-youtube' ></i></a>
         </div>
         <div class="buttonsDiv">
-            <button class="buttons">SUBSCRIBE</button>
-            <button class="buttons">Massage</button>
+            <button class="buttons">Subscribe</button>
+            <button class="buttons">Message</button>
         </div>
-        <div class="icons"></div>
+        <div class="icons">
+            <div class="heart data">
+                <i class='bx bx-heart' ></i>
+                <span>24k</span>
+            </div>
+            <div class="message data">
+                <i class='bx bx-message-dots' ></i>
+                <span>20k</span>
+            </div>
+            <div class="share data">
+                <i class='bx bx-share' ></i>
+                <span>10k</span>
+            </div>
+        </div>
     </div>
 </body>
 </html>
