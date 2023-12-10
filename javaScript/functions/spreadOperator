@@ -1,0 +1,14 @@
+let top3 = [
+    "The Colosseum" ,
+    "Trevi Fountain" ,
+    "The Vatican City"
+];
+function visited( place1 , place2 , place3 ){
+    console.log("Visit "+ place1);
+    console.log("Then visit " + place2);
+    console.log("Finish with a visit to " + place3);
+}
+
+/// ...top3 dots in this are spread operator it will auto assign all the items of top3 in the function
+visited(...top3);
+console.log(...top3);

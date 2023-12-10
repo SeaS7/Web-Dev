@@ -20,14 +20,8 @@
 // var test2 = num2 % 2 == 0;
 // console.log("Is", num1, "an even number?",test1);
 // console.log("Is", num2, "an even number?",test2);
-function consoleStyler(color, background, fontSize, txt) {
-    const message = `%c${txt}`;
-    let style = `color: ${color};`;
-    style += `background: ${background};`;
-    style += `font-size: ${fontSize};`;
 
-    console.log(message, style);
-}
-
-// Example usage:
-consoleStyler('white', 'blue', '20px', 'Styled Console Message');
+let greet = "Hello";
+let place = "World";
+console.log(`${greet} ${place}!`);
+console.log(`${1 + 1 + 1 + 1} stars!`);
