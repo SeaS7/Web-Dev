@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background: #fff;
+}
+.nav{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.nav-1{
+    display: flex;
+    align-items: center;
+}
+.nav-1 h3{
+    font-size: 17px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+.nav-1 i{
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+.nav-2 h1{
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 500;
+}
+.nav-3 button{
+    padding: 5px 10px;
+    border-radius: 50px;
+    background: #fff;
+    border: 1.5px solid black;
+    font-size: 17px;
+}
+.nav-3 .btn-2{
+    background: orangered;
+    color: #fff;
+    border: none;
+}
+.main>h1{
+    font-size: 170px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+.main img{
+    height: 500px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 25px;
+}
+.main #img-4{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+.main #img-3{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+.main #img-2{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+.main #img-1{
+    transform: translate(-50%,-50%) rotate(-40deg);
+}
+.main>h3{
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
